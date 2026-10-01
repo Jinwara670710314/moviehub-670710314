@@ -6,6 +6,7 @@ import { useAuth } from '../auth/AuthContext';
 function Wishlist() {
   const { member } = useAuth();                  // TODO ขั้นที่ 4 (Lab): ดึง token มาด้วย
 
+  //ต้องทำในส่วนนี้
   // TODO ขั้นที่ 4 (Lab): เปลี่ยน 3 ค่าคงที่เป็น state แล้วโหลดด้วย useEffect
   //   const list = await getWishlist(token)  ได้ { items } ที่เป็นรูปร่างเดียวกับการ์ดหนัง MovieGrid ใช้ได้เลย
   //   dependency คือ [token]

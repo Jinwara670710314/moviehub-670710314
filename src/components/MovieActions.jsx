@@ -18,6 +18,7 @@ function MovieActions({ movieId }) {
     );
   }
 
+  //ทำส่วนตรงนี้
   async function handleVote(score) {
     // TODO ขั้นที่ 5 (Lab): await putVote(movieId, score, token) ก่อน แล้วค่อย setMyScore ถ้าพลาดให้ setMessage(err.message)
     setMyScore(score);                             // ตอนนี้เปลี่ยนแค่บนจอ refresh แล้วหาย เพราะยังไม่ได้ส่งไป server
